@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
+import "forge-std/console.sol";
+
 contract Counter {
     uint256 private contador;
 
@@ -13,6 +15,7 @@ contract Counter {
     }
 
     function increment() public {
+        console.log("Impriendo siguiente valor: ", "256");
         contador++;
     }
 

@@ -1,0 +1,131 @@
+{
+    "contractName": "HolaMundo",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "saludo",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.30+commit.73712a01\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"saludo\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/leone/Documents/Desarrollo Software/Web3/foundry/tutorial_foundry/src/HolaMundo.sol\":\"HolaMundo\"},\"evmVersion\":\"prague\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"c:/Users/leone/Documents/Desarrollo Software/Web3/foundry/tutorial_foundry/src/HolaMundo.sol\":{\"keccak256\":\"0x574929f7f0c302bb5da9d0a3c1fdb2a72a6771a51e48e0b3e401e198c034b48c\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://d30faf45123e269ba4d4c52689d5a33ded7c5e44092b38562d438e99576da40c\",\"dweb:/ipfs/Qmf8MyvPgKT3X7BVvkEX3gh9p1EuRJwkY4RAhRSctsH4Mx\"]}},\"version\":1}",
+    "bytecode": "6080806040523460b9575f54600181811c9116801560b0575b6020821014609c57601f81116058575b507f486f6c61204c656f6e656c20526f6472696775657a000000000000000000002a5f5561018f90816100be8239f35b5f8052601f0160051c7f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563908101905b818110609257506028565b5f81556001016087565b634e487b7160e01b5f52602260045260245ffd5b90607f16906018565b5f80fdfe6080600436101561000e575f80fd5b5f3560e01c630a3a9d6314610021575f80fd5b34610155575f366003190112610155575f5f54908160011c6001831692831561014b575b60208210841461013757818552602085019390811561011e57506001146100ca575b50829003601f01601f191682019167ffffffffffffffff8311818410176100b6576040918391828452602083525180918160208501528484015e5f828201840152601f01601f19168101030190f35b634e487b7160e01b5f52604160045260245ffd5b90505f80527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5635f905b8282106101085750602091508301015f610067565b60018160209254838589010152019101906100f3565b60ff1916845250151560051b830160200190505f610067565b634e487b7160e01b5f52602260045260245ffd5b90607f1690610045565b5f80fdfea264697066735822122022a18bfe02e6a62493e19179c19917f7be21f013ac411cf78c7e7d652fb80e3164736f6c634300081e0033",
+    "deployedBytecode": "6080600436101561000e575f80fd5b5f3560e01c630a3a9d6314610021575f80fd5b34610155575f366003190112610155575f5f54908160011c6001831692831561014b575b60208210841461013757818552602085019390811561011e57506001146100ca575b50829003601f01601f191682019167ffffffffffffffff8311818410176100b6576040918391828452602083525180918160208501528484015e5f828201840152601f01601f19168101030190f35b634e487b7160e01b5f52604160045260245ffd5b90505f80527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5635f905b8282106101085750602091508301015f610067565b60018160209254838589010152019101906100f3565b60ff1916845250151560051b830160200190505f610067565b634e487b7160e01b5f52602260045260245ffd5b90607f1690610045565b5f80fdfea264697066735822122022a18bfe02e6a62493e19179c19917f7be21f013ac411cf78c7e7d652fb80e3164736f6c634300081e0033",
+    "sourceMap": "68:288:20:-:0;;;;;;;117:23;68:288;;;;;;;;;;;-1:-1:-1;68:288:20;;;;;;;;;;;-1:-1:-1;;68:288:20;117:23;68:288;;;;;;;;;117:23;68:288;;;;;;;;;;;;;;;;;;;;;117:23;68:288;;;;;;;;;;117:23;68:288;;;;;117:23;68:288;;;;;;;;;;;",
+    "deployedSourceMap": "68:288:20:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;68:288:20;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;68:288:20;;;;;-1:-1:-1;;68:288:20;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;68:288:20;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;68:288:20;;;-1:-1:-1;68:288:20;;;;;;;;;-1:-1:-1;68:288:20;;;;;;;;;;;;;;;;;;;;;;;;;",
+    "sourcePath": "c:/Users/leone/Documents/Desarrollo Software/Web3/foundry/tutorial_foundry/src/HolaMundo.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.30+commit.73712a01"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/leone/Documents/Desarrollo Software/Web3/foundry/tutorial_foundry/src/HolaMundo.sol",
+        "exportedSymbols": {
+            "HolaMundo": [
+                39763
+            ]
+        },
+        "id": 39764,
+        "license": "UNLICENSED",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 39759,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".13"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "40:24:20"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "HolaMundo",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 39763,
+                "linearizedBaseContracts": [
+                    39763
+                ],
+                "name": "HolaMundo",
+                "nameLocation": "77:9:20",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "0a3a9d63",
+                        "id": 39762,
+                        "mutability": "mutable",
+                        "name": "saludo",
+                        "nameLocation": "108:6:20",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 39763,
+                        "src": "94:46:20",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 39760,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "94:6:20",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "486f6c61204c656f6e656c20526f6472696775657a",
+                            "id": 39761,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "117:23:20",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_d97f9407857992c738a9e7cdf76852ddeb3748053aaddaf861d730e1987a43e4",
+                                "typeString": "literal_string \"Hola Leonel Rodriguez\""
+                            },
+                            "value": "Hola Leonel Rodriguez"
+                        },
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 39764,
+                "src": "68:288:20",
+                "usedErrors": [],
+                "usedEvents": []
+            }
+        ],
+        "src": "40:318:20"
+    },
+    "functionHashes": {
+        "saludo()": "0a3a9d63"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "79800",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "saludo()": "infinite"
+        }
+    }
+}
