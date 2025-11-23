@@ -64,3 +64,5 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+# forge install transmissions11/solmate
