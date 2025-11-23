@@ -22,4 +22,11 @@ contract ExpectContractTest is Test {
         emit Transfer(address(this), address(1337), 1337);
         emitter.t();
     }
+
+    function test_ExpectEmit_DoNotCheckData() public {
+        ExpectEmit emitter = new ExpectEmit();
+        vm.expectEmit(true, false, false, false);
+        emit Transfer(address(this), address(1339), 1338);
+        emitter.t();
+    }
 }
