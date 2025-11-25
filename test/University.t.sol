@@ -20,12 +20,17 @@ contract UniversityTest is Test {
         startDate = block.timestamp;
     }
 
-    // function test_RevertWhen_Endroll() public {
-    //     vm.expectRevert("Cannot enroll!");
-    //     university.enroll();
-    // }
+    function testEnrool_RevertWhen_BeforeStartDate() public {
+        vm.expectRevert("Cannot enroll!");
+        university.enroll();
+    }
 
-    function testEndroll() public {
+    function testEnrool_RevertWhen_AfterEndDate() public {
+        vm.expectRevert("Cannot enroll!");
+        university.enroll();
+    }
+
+    function testEnroll() public {
         vm.warp(startDate + 1 days);
         university.enroll();
     }
